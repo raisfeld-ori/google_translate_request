@@ -12,5 +12,5 @@ edition = "2021"
 reqwest = "0.12.11"
 
 [dev-dependencies]
-tokio = { version = "*", features = ["full"] }
-tokio-macros = "*"
+tokio = { version = "1", features = ["full"] }
+tokio-macros = "2.4.0"
