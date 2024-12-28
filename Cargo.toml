@@ -1,0 +1,16 @@
+[package]
+name = "google_translate_request"
+authors = ["Ori Raisfeld"]
+description = "Google translate request to a spesific endpoint"
+categories = ["Translation", "Translating", "Google", "Networking", "Translate"]
+license = "MIT"
+readme = "README.md"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.12.11"
+
+[dev-dependencies]
+tokio = { version = "*", features = ["full"] }
+tokio-macros = "*"
