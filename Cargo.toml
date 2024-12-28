@@ -2,7 +2,6 @@
 name = "google_translate_request"
 authors = ["Ori Raisfeld"]
 description = "Google translate request to a spesific endpoint"
-categories = ["Translation", "Translating", "Google", "Networking", "Translate"]
 license = "MIT"
 readme = "README.md"
 version = "1.0.0"
